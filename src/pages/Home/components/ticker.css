@@ -1,0 +1,13 @@
+@keyframes ticker {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-ticker {
+  display: flex;
+  animation: ticker 30s linear infinite;
+}
